@@ -77,10 +77,11 @@ function generateWord() {
 
 
 function checkWord() {
-    var myInput = $("#myInput").val().trim().toLowerCase();
+    var myInput = $("#myInput").val().trim();//.toLowerCase();
   myInput = '$' + myInput + '$';
 
-  var correctInput = '$' + dict[index][form].replace('/', '$') + '$';
+  // var correctInput = '$' + dict[index][form].replace('/', '$') + '$';
+  var correctInput = '$' + dict[index][form] + '$'; // Needs all to be correct
   var timer = 0;
 
   if (correctInput.indexOf(myInput) > -1) {
