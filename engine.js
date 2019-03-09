@@ -52,14 +52,11 @@ var dict =
     // ['ruhig/laut', 'calme/bruyant'],
     // ['grün', 'vert'],
     // ['in Stadtzentrum', 'le centre de la ville'],
-    ['nehmen', 'nahm', 'hat ... genommen', 'prendre']
-    ['sprechen', 'sprach', 'hat ... gesprochen', 'parler']
-    ['treffen', 'traf', 'hat ... getroffen', 'rencontrer']
-    ['helfen', 'half', 'hat ... geholfen', 'aider']
-    ['werfen', 'warf', 'hat ... geworfen', 'jeter']
-    ['empfehlen', 'empfahl', 'hat ... empfohlen', 'reccomander']
-    ['gehen', 'ging', 'ist ... gegangen', 'aller']
-    ['stehen', 'stand', 'hat/ist ... gestanden', 'être debout']
+    ['die Haupstadt(¨e)', 'la capitale'],
+    ['der Fluss(¨e)', 'le fleuve'],
+    ['die Grenze(n)', 'la frontière'],
+    ['das Denkmal(¨er)', 'le mouvement'],
+    ['die Altstadt(ë)', 'la vieille ville'],
 ];
 
 function generateWord() {
